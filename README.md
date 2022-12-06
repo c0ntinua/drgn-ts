@@ -12,5 +12,6 @@ A teleport piece appeared in earlier versions and will appear again.
 
 You can experiment with this code (a recentish version of it) below.
 
+For 'font unicode reasons', it works better on Firefox. 
 
 http://fred.brimstone.s3-website.us-east-2.amazonaws.com/
