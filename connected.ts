@@ -6,7 +6,7 @@ function updateConnectedSet() {
     }
     for (let round = 1 ; round <= rounds; round++) {
         for (let s of all_squares) {
-            if (connectedPieceAdjacent(s) && nonEmpty(s) && myPiece(s)) connected_set.add(s); 
+            if (connectedPieceAdjacent(s) && !isEmpty(s) && myPiece(s)) connected_set.add(s); 
         }
     }
 }

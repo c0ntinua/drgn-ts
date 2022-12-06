@@ -11,7 +11,7 @@ function plotPieces() {
     pen.fillStyle = "#000000";
     pen.font = font_description;
     for (let s of all_squares) {
-        if (nonEmpty(s)) {
+        if (!isEmpty(s)) {
             pen.beginPath();
             pen.fillText(String.fromCharCode(chessSymbol(playerAt(s), board[row(s)][col(s)])), col(s) * pixel_width + glyph_col_shift, row(s) * pixel_height + glyph_row_shift);
             pen.fill();

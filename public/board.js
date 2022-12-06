@@ -44,11 +44,6 @@ function seedBoard() {
             board[row(s)][col(s)] = "empty";
     }
 }
-function nonEmpty(s) {
-    if (board[row(s)][col(s)] == "empty")
-        return false;
-    return true;
-}
 function isEmpty(s) {
     if (board[row(s)][col(s)] == "empty")
         return true;

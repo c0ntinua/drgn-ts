@@ -16,7 +16,7 @@ function playerAt(s) {
         return 0;
     if (player_set[1].has(s))
         return 1;
-    return 0;
+    return -1;
 }
 function row(s) {
     let raw = "";
@@ -32,14 +32,15 @@ function col(s) {
     let raw = "";
     let found_comma = false;
     for (let char of s) {
-        if (char == ",") {
+        if (!found_comma) {
+            if (char != ",")
+                continue;
             found_comma = true;
             continue;
         }
-        if (!found_comma)
-            continue;
-        else
+        else {
             raw += char;
+        }
     }
     return parseInt(raw);
 }

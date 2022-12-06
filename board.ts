@@ -40,18 +40,10 @@ function seedBoard() {
     }
 }
 
-
-
-
-function nonEmpty(s : Square) : boolean {
-    if (board[row(s)][col(s)] == "empty") return false;
-    return true;
-}
 function isEmpty(s : Square) : boolean {
     if (board[row(s)][col(s)] == "empty") return true;
     return false;
 }
-
 
 function randomPiece() : string {
     let code = Math.floor(Math.random() * 6);
