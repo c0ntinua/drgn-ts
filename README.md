@@ -14,4 +14,4 @@ You can experiment with this code (a recentish version of it) below.
 
 For 'font unicode reasons', it works better on Firefox. 
 
-http://fred.brimstone.s3-website.us-east-2.amazonaws.com/
+http://sc0tzwEi.github.io/drgn-ts
