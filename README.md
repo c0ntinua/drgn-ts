@@ -12,6 +12,6 @@ A teleport piece appeared in earlier versions and will appear again.
 
 You can experiment with this code (a recentish version of it) below.
 
-For 'font unicode reasons', it works better on Firefox. 
+For 'font unicode reasons', it looks better on Firefox than it does on Chrome. 
 
 http://sc0tzwEi.github.io/drgn-ts
